@@ -12,7 +12,7 @@ discord.py==1.7.3; python_full_version >= "3.5.3" and python_version >= "3.6"
 discord==1.7.3
 dnspython==2.2.1; python_version >= "3.7" and python_version < "4.0"
 emoji==1.7.0
-flask==2.2.1; python_version >= "3.7"
+flask==3.0.0; python_version >= "3.7"
 grapheme==0.6.0; python_version >= "3.6"
 idna==3.3; python_version >= "3.7" and python_version < "4"
 importlib-metadata==4.12.0; python_version < "3.10" and python_version >= "3.7"

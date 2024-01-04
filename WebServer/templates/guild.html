@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Dashboard {% endblock %}
+
+{% block a %}<a class="nav-link" href="/logout">Logout</a>{% endblock %}
+{% block content %}
+
+<br/>
+    <div class="container">
+        <br/>
+        <div class="welcome" style="text-align: center;">
+            <h1>
+                {% if guild['icon'] %}
+                    <img style="width: 50px; border-radius: 50%" src="https://cdn.discordapp.com/icons/{{guild['id']}}/{{guild['icon']}}.png?size=64">
+                {% else %}
+                    <img style="width: 50px; border-radius: 50%" src="https://www.shitpostbot.com/resize/585/400?img=%2Fimg%2Fsourceimages%2Fdefault-discord-icon-5b254285e1034.png">
+                {% endif %}
+                {{guild['name']}}
+            </h1>
+        </div><br/>
+      
+      
+    </div>
+{% endblock %}

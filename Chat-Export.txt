@@ -1,0 +1,11 @@
+Chat Exporter v2.0.0
+
+rsync -av --exclude=~/Nyan-Cat/venv/lib/python3.8/site-packages/chat_exporter/html/* ~/Nyan-Cat/venv/lib/python3.8/site-packages/chat_exporter/html ~/.cache/pip/pool/ce/e9
+
+Chat Exporter v1.7.3
+rsync -av --exclude=~/Nyan-Cat/venv/lib/python3.8/site-packages/chat_exporter* ~/Nyan-Cat/venv/lib/python3.8/site-packages/chat_exporter/ ~/.cache/pip/pool/3a/1f/c1
+
+
+    with open(f"WebServer/templates/backup/{channel.guild.id}/{channel.name}.html", "w+") as f:
+      f.write(transcript.html)
+      f.close()
